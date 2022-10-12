@@ -10,34 +10,37 @@
 <body>
     <div class="signup-box">
         <h1>Registration Page</h1>
-        <h4>It is free and only takes a minute</h4>
         <form>
-            <label>First Name</label>
-            <input type="text" placeholder="Enter your first name">
-            <label>Last Name</label>
-            <input type="text" placeholder="Enter your last name">
+            <label class="text-center">First Name</label>
+            <input type="text" placeholder="Enter your first name" required>
+            <label class="text-center">Last Name</label>
+            <input type="text" placeholder="Enter your last name" required>
             <label>Phone Number</label>
-            <input type="number" placeholder="Enter your Phone number">
+            <input type="number" placeholder="Enter your Phone number" required>
             <label>Email</label>
-            <input type="email" placeholder="Enter your email address">
+            <input type="email" placeholder="Enter your email address" required>
             <label>Password</label>
-            <input type="password" placeholder="Enter your password">
+            <input type="password" placeholder="Enter your password" required>
             <label>Gender</label>
-            <select name="gender" id="">
-                <option disabled selected value="male">Select your gender</option>
+            <select name="gender" id="" required>
+                <option disabled selected value="male"></option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
                 <option value="preferNot">Prefer not to say</option>
             </select>
             <label>Date Of Birth</label>
-            <input type="date" placeholder="Enter date of birth">
+            <input type="date" placeholder="Enter date of birth" required>
             <label>Select Favourite colour</label>
-            <input type="color" placeholder="select your favourite color">
-            <input type="button" value="Submit">
+            <a href="welcome.html">
+                <input type="submit">
+            </a>
+            <input class="color" type="color" value="#ff0000" required>
+            <!-- <input type="submit" value="Submit"> -->
+            <input type="reset" value="Reset">
         </form>
         <p>By clicking the Sign up button, you agree to our <br>
         <a href="#">Terms & Conditions</a> and <a href="#">Policy & Privacy</a></p>
     </div>
-    <p>Already have an account? <a href="#">Login here</a></p>
+    <p>Already have an account? <a href="Login.html">Login here</a></p>
 </body>
 </html>
