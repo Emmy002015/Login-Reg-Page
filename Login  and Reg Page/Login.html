@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="signup-box2">
-        <h1>Login Page</h1>
-        <form method="POST" action="/Login  and Reg Page/welcome.html">
-            <label>Email</label>
-            <input type="email" placeholder="Enter your email address" required>
-            <label>Password</label>
-            <input type="password" placeholder="Enter your password" required>
-            <input type="submit" value="Submit">
-        </form>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Login Page</h1>
+            <form action="login-success.html">
+                <label>Email<span>*</span></label>
+                <input type="email" placeholder="Enter your email address" required>
+                <label>Password<span>*</span></label>
+                <input type="password" placeholder="Enter your password" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        <div class="other-box">
+            <p>Don't have an account? <a href="index.html"><span>Register here</span></a></p>
+        </div>
     </div>
-    <p>Don't have an account? <a href="RegistrationPage.html">Register here</a></p>
 </body>
 </html>

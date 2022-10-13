@@ -1,7 +1,21 @@
-body{
-    background-color: #344a72;
-    font-family: 'Roboto', sans-serif;
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
 }
+body{
+    background-color: rgb(1, 7, 10);
+}
+.registration-container{
+    background: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    
+}
+.login-container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5lNt_SsdQViC7PoYQ1vp41siavG2LHiTp9g&usqp=CAU);
+}
+
 .signup-box{
     width: 400px;
     height: auto;
@@ -9,21 +23,28 @@ body{
     background-color: rgb(69, 102, 116);
     border-radius: 10px;
 }
-.signup-box2{
+.login-box{
     width: 400px;
     height: 350px;
     margin: auto;
     background-color: rgb(69, 102, 116);
     border-radius: 10px;
 }
-
-h1{
-    text-align: center;
-    padding-top: 15px;
+.success-box{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(213, 222, 226);
+    border-radius: 10px;
 }
 
-h4{
+.other-box, .white{
+    color: white;
+}
+
+h1, h2, h3, h4{
     text-align: center;
+    padding-top: 15px;
 }
 
 form{
@@ -36,6 +57,10 @@ form label{
     margin-top: 20px;
     font-size: 18px;
     justify-content: center;
+}
+label span{
+    color: rgb(219, 86, 86);
+    padding-left: 0.5rem;
 }
 
 form input{
@@ -95,4 +120,10 @@ button{
     background-color: #49c1a2;
     color: white;
     font-size: 18px;
+}
+span{
+    color: orange;
+}
+option{
+    text-align: center;
 }
